@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" ></script>
+    <title>Sprint 1</title>
+</head>
+<body>
+    <div class="computadoras">
+        <label>Ingrese Número de computadoras a solicitar</label>
+        <input type="number" id="computadores"/><br>
+        <button class="calcular_boton" onClick="calculateOrder()">Calcular</button>
+    </div>
+
+    <div class="orden_compra">
+        <div>
+            <label class="titulo"><h3>Orden de compra</h3></label>
+            <label>Valor de Compra:</label><br>
+            <input type="number" id="valorCompra"/>
+        </div>
+
+        <div>
+        <label>Valor de descuento:</label><br>
+        <input type="number" id="valorDescuento"/>
+        </div>
+
+        <div>
+        <label>Total:</label><br>
+        <input type="number" id="total"/>
+        </div>
+        <div id="descuento_label">
+
+        </div>
+    </div>
+</body>
+</html>

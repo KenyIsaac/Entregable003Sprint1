@@ -1,0 +1,36 @@
+.computadoras {
+    position: relative;
+    border: 2px solid #65bfff;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    padding: 2%;
+  }
+
+  
+
+  .orden_compra{
+    position : relative;
+    border: 2px solid #65bfff;
+    border-radius: 0;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 2%;
+    margin-top: 1%;
+  }
+  .calcular_boton {
+    background-color: #ff5050;
+    border-radius: 5px;
+    color: white;
+    -webkit-appearance: none;
+    border: 0;
+    box-shadow: none;
+    padding: 3%;
+  }
+  .texto_descuento{
+    color:red;
+  }
+  #descuento_label{
+    margin-top: 3%;
+  }
